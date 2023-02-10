@@ -1,13 +1,9 @@
 const notes = require('express').Router();
-const { readFromFile, readAndAppend } = require('../helpers/fsUtils');
+const path = require('path');
 
-
+// Path to get the notes HTML file when pinged
 notes.get('/', (req, res) => {
-    res.sendFile(path.join(__dirname, './public/notes.html'));
-});
-
-notes.get('/*', (req, res) => {
-    res.sendFile(path.join(__dirname, './public/index.html'));
+    res.sendFile(path.join(__dirname, '../public/notes.html'));
 });
 
 module.exports = notes;
