@@ -11,7 +11,7 @@ Notes can be managed in the db.json file, or in the GUI.
 ## Usage
 ![](./Media/Screenshot%202023-02-13%20115256.png)
 
-Navigate to **** Heroku Link here  
+Navigate to https://whispering-taiga-51084.herokuapp.com/ for the deployed app.  
 
 ## Credits
 
@@ -22,6 +22,7 @@ www.Heroku.com -- for their domain
 
 MIT © Michael Weiss
 
-Deployed link
+Deployed Heroku link
+https://whispering-taiga-51084.herokuapp.com/
 Repo link
 https://github.com/Veis1337/Note-Taker
