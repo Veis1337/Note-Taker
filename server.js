@@ -6,7 +6,7 @@ const notes = require('./routes/htmlRoutes');
 const app = express();
 
 // Heroku compatibility, otherwise default to 3001 local port
-const PORT = process.env.port || 3001;
+const PORT = process.env.PORT || 3001;
 
 // Middleware for parsing JSON & urlencoded form data
 app.use(express.json());
